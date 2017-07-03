@@ -1,0 +1,66 @@
+body {
+    background-color: #f4f4f4;
+}
+#space-alert {
+    position: fixed;
+    width: 90%;
+    margin: 10rem 5%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    font-size: 1.6rem;
+}
+#header {
+    background-color: rgb(111, 84, 153);
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.4);
+    z-index: 9999;
+}
+#header h3 {
+    display: inline-block;
+}
+#header a {
+    color: #fff;
+}
+#header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+#main {
+    padding: 7rem 0;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    font-size: 1.7rem;
+}
+.hr {
+    border-color: rgb(111, 84, 153);
+    border-width: 3px;
+}
+#how-to p {
+    font-size: 8rem;
+    color: rgb(111, 84, 153);
+}
+.btn-purple {
+    background-color: rgb(111, 84, 153);
+    border-color: rgb(111, 84, 153);
+    color: #fff;
+}
+.btn-purple:hover {
+    color: #fff;
+}
+#newLink {
+    font-size: 2.5rem;
+    padding: 1rem;
+    height: 5rem;
+}
+.modal.in .modal-dialog {
+    margin-top: 8rem;
+}
